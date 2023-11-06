@@ -1,0 +1,6 @@
+min_points_in_curve: 11                                  
+fit_score_ths: 0.9
+dist_from_curve_ths: 0
+minimum_curves: 1
+maximum_curves_to_use: 2
+

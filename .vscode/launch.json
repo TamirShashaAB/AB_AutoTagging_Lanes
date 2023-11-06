@@ -1,0 +1,21 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "apply_road_boundaries_filter ",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/ab_autotagging_lanes/infer.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "python": "${workspaceFolder}/.venv/bin/python",
+            "args": [],
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}:/home/tamir/workspace/AutoBrains-Networks:/home/tamir/workspace/Cartica-Utils"
+            }
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+name: tamir
+cfg: '/home/tamir/workspace/AB_AutoTagging_Lanes/tmp/assets/cfg_file.yaml'
+weights: '/home/tamir/workspace/AB_AutoTagging_Lanes/tmp/assets/weights_file.pt'
+inference_conf: autobrains_networks/lane_detection/inference_conf.json
+model_type: ABnet
+multiprocess: True
